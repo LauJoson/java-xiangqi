@@ -1,0 +1,22 @@
+// ChessGame.java
+public class ChessGame {
+    private ChessBoard board;
+
+    public ChessGame() {
+        board = new ChessBoard();
+    }
+
+    public void startGame() {
+        // 初始化游戏
+        board.initializeBoard();
+        // 显示棋盘
+        board.displayBoard();
+        // 实现游戏逻辑
+        // ...
+    }
+
+    public static void main(String[] args) {
+        ChessGame game = new ChessGame();
+        game.startGame();
+    }
+}
