@@ -1,0 +1,18 @@
+// ChessBoard.java
+public class ChessBoard {
+    private ChessPiece[][] board;
+
+    public ChessBoard() {
+        board = new ChessPiece[8][8];
+    }
+
+    public void initializeBoard() {
+        // 初始化棋盘上的棋子
+        // ...
+    }
+
+    public void displayBoard() {
+        // 显示棋盘
+        // ...
+    }
+}
