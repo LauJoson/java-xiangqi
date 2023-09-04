@@ -1,0 +1,12 @@
+// ChessPiece.java
+public class ChessPiece {
+    private ChessPieceType type;
+    private int x;
+    private int y;
+
+    public ChessPiece(ChessPieceType type, int x, int y) {
+        this.type = type;
+        this.x = x;
+        this.y = y;
+    }
+}
